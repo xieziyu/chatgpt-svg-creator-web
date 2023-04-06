@@ -18,6 +18,7 @@
     <li><a href="#主要功能">主要功能</a></li>
     <li><a href="#演示">演示</a></li>
     <li><a href="#本地启动">本地启动</a></li>
+    <li><a href="#参见">参见</a></li>
   </ul>
 </details>
 
@@ -51,3 +52,7 @@
 
 1. clone 当前仓库
 2. `yarn && yarn start`
+
+## 参见
+
+[浏览器扩展](https://github.com/xieziyu/chatgpt-svg-creator)

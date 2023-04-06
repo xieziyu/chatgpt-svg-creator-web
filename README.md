@@ -18,6 +18,7 @@
     <li><a href="#main-features">Main Features</a></li>
     <li><a href="#demo">Demo</a></li>
     <li><a href="#local-startup">Local Startup</a></li>
+    <li><a href="#see-also">See Also</a></li>
   </ul>
 </details>
 
@@ -50,3 +51,7 @@ With the ChatGPT SVG Creator extension, you can design and modify SVGs using nat
 
 1. clone this repo
 2. `yarn && yarn start`
+
+## See Also
+
+[Browser Extension](https://github.com/xieziyu/chatgpt-svg-creator)
