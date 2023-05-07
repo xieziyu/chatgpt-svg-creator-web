@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://github.com/xieziyu/chatgpt-svg-creator">
+  <a href="https://github.com/xieziyu/chatgpt-svg-creator-web">
     <img src="./src/assets/icon.png" alt="Logo" width="60" height="60">
   </a>
   <h3 align="center">ChatGPT SVG Creator</h3>
