@@ -20,7 +20,7 @@ export class CreatorService {
     if (originalSVGCode) {
       finalMsg = GivenSVGPrompt.replace(/\{svg\}/g, originalSVGCode).replace(
         /\{reasoning\}/g,
-        originalReasoning
+        originalReasoning || 'unknown'
       );
     } else {
       finalMsg = DefaultPrompt;

@@ -2,7 +2,7 @@ export const DefaultPrompt = `Follow the steps below to generate SVG code to ful
 
 - Requirement: \`\`\`{input}\`\`\`
 - Keywords: extract the keywords in the requirement. These keywords should be very helpful for generating the final SVG image.
-- Reasoning: explain how to fulfil these keywords. Format your reasoning as the unordered list. Make your reasoning using the same language as the requirement.
+- Reasoning: explain how to use svg codes to fulfil these keywords. Format your reasoning as the unordered list. Make your reasoning using the same language as the requirement.
 - SVG: generate the SVG code to fulfil the requirement refer to your reasoning.
 
 Format your response as a JSON object with "Keywords", "Reasoning", and "SVG" as the keys.
@@ -21,7 +21,7 @@ Follow the steps below to update SVG code to fulfil my requirement which is deli
 
 - Requirement: \`\`\`{input}\`\`\`
 - Keywords: extract the keywords in the requirement. These keywords should be very helpful for generating the final SVG image.
-- Reasoning: explain how to use svg to meet these keywords. Format your reasoning as the unordered list. Make your reasoning using the same language as the requirement.
+- Reasoning: explain how to use svg codes to fulfil these keywords. Format your reasoning as the unordered list. Make your reasoning using the same language as the requirement.
 - SVG: generate the SVG code to fulfil the requirement refer to your reasoning.
 
 Format your response as a JSON object with "Keywords", "Reasoning", and "SVG" as the keys.
