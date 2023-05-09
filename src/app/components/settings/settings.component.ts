@@ -16,7 +16,7 @@ export class SettingsComponent implements OnInit, OnDestroy {
   modelOptions: { label: string; value: string }[] = [];
   currentModel = '';
   currentModel$ = new Subject<string>();
-  temperature = 0.5;
+  temperature = 1;
   temperatureUpdate$ = new Subject<number>();
 
   constructor(public layoutService: LayoutService, private config: ConfigService) {}
@@ -27,6 +27,16 @@ export class SettingsComponent implements OnInit, OnDestroy {
 
   set visible(_val: boolean) {
     this.layoutService.state.configSidebarVisible = _val;
+  }
+
+  get temperatureLabel(): string {
+    if (this.temperature < 1) {
+      return ' - more deterministic';
+    } else if (this.temperature > 1) {
+      return ' - more random';
+    } else {
+      return ' - balanced';
+    }
   }
 
   ngOnInit() {
